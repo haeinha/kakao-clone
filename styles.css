@@ -1,0 +1,28 @@
+property-name: value;
+
+h1 {
+  property-name: vlaue;
+  property-name: vlaue;
+  property-name: vlaue;
+  property-name: vlaue;
+  property-name: vlaue;
+}
+
+#id {
+  property-name: vlaue;
+  property-name: vlaue;
+  property-name: vlaue;
+  property-name: vlaue;
+  property-name: vlaue;
+}
+
+.class {
+  property-name: vlaue;
+  property-name: vlaue;
+  property-name: vlaue;
+  property-name: vlaue;
+  property-name: vlaue;
+}
+
+selector (id,class,tag name) {
+}
