@@ -1,26 +1,41 @@
 <!DOCTYPE html>
-<!--self-contained tag.-->
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="description" content="Welcom to my KaKao Clone" />
-    <meta name="author" content="Nomad Coders" />
-    <title>This is my title</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/168ebc2daa.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Chats | Kakao Clone</title>
   </head>
-  <!--Invisible for the user-->
   <body>
-    <h1>
-      This is big title
-    </h1>
-    <div>WhatEver</div>
-    <!-- Semantic/ Non Semantic-->
-    <span>Somthing else</span>
-    <section>This is the important section</section>
-    <article></article>
-    <header></header>
-    <h6>This is small title</h6>
-    <header id="headerNumberONe" class="defaultHeader"></header>
-    <!--id is unique, class is not unique-->
-    <!--1~6-->
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span class="status-bar__clock">13:54</span>
+      </div>
+      <div class="status-bar__column">
+        <i class="fas fa-clock"></i>
+        <i class="fas fa-volume-mute"></i>
+        <i class="fas fa-wifi"></i>
+        <span class="status-bar__battery-level">75%</span>
+        <i class="fas fa-battery-three-quarters"></i>
+      </div>
+    </div>
+    <header class="header">
+      <div class="header__header-column">
+        <h1 class="header__title">Chats</h1>
+        <span class="header__icon">
+          <i class="fas fa-search"></i>
+        </span>
+        <span class="header__icon">
+          <i class="fas fa-comment-medical"></i>
+        </span>
+        <span class="header__icon">
+          <i class="fas fa-cog"></i>
+        </span>
+      </div>
+      <div class="header__header-column"></div>
+    </header>
   </body>
 </html>
